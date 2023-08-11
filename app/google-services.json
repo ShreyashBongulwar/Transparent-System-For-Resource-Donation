@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1034413790175",
+    "project_id": "helpingwind-ca51d",
+    "storage_bucket": "helpingwind-ca51d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034413790175:android:b82be363e3e14278e32a6a",
+        "android_client_info": {
+          "package_name": "com.example.helping_wind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034413790175-mms9kn793ammm4ljk4ifo15oulv38fct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helping_wind",
+            "certificate_hash": "2feec89a51ac43dcb5b686de21d49f3540435dfb"
+          }
+        },
+        {
+          "client_id": "1034413790175-0t9i9sdpo700ss4sfsl8gtlq1nmo2l29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8oercD_xELAmdCciblRK6rR0rUiRpNag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034413790175-0t9i9sdpo700ss4sfsl8gtlq1nmo2l29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

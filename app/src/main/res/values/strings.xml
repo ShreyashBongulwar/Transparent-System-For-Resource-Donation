@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Helping_Wind</string>
+    <string name="dont_have_an_account_register">Dont have an account? Register</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="Donations">
+        <item>Select Donations</item>
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Educational</item>
+        <item>Medication</item>
+        <item>Shelter</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

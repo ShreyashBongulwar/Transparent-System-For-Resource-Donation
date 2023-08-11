@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/sendEmail"
+        android:icon="@drawable/email"
+        android:title="Email"/>
+    <item
+        android:id="@+id/addDonations"
+        android:icon="@drawable/adddonations"
+        android:title="Your Donatoins"/>
+
+    <item
+        android:title="Donations">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/food"
+                    android:icon="@drawable/food"
+                    android:title="Food"/>
+                <item
+                    android:id="@+id/clothes"
+                    android:icon="@drawable/clothes"
+                    android:title="Clothes"/>
+                <item
+                    android:id="@+id/educational"
+                    android:icon="@drawable/books"
+                    android:title="Educational
+"/>
+                <item
+                    android:id="@+id/medication"
+                    android:icon="@drawable/medication"
+                    android:title="Medication"/>
+                <item
+                    android:id="@+id/shelter"
+                    android:icon="@drawable/address"
+                    android:title="Shelter"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Action">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/person2"
+                    android:title="Profile"/>
+                <item
+                    android:id="@+id/notifications"
+                    android:icon="@drawable/notification"
+                    android:title="Notifications"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="LogOut"/>
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/search"
+                    android:title="Search"/>
+
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/about"
+                    android:title="About"/>
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/share"
+                    android:title="Share"/>
+
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

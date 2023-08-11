@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@drawable/header_background"
+    tools:ignore="MissingClass">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/navigation_user_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:padding="8dp"
+        android:src="@drawable/profileimage"
+        />
+    <TextView
+        android:id="@+id/navigation_full_name"
+        android:text="Full name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/navigation_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="14sp">
+    </TextView>
+    <TextView
+        android:id="@+id/navigation_user_contact"
+        android:text="Contact"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/navigation_user_type"
+        android:text="type"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+<!--    <TextView-->
+<!--        android:id="@+id/navigation_user_idNumber"-->
+<!--        android:text="IdNumber"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--    </TextView>-->
+</LinearLayout>
